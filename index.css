@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.head li {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.head ul {
+    gap: 30px;
+    display: flex;
+}
+
+.head {
+    position: fixed;
+    background-color: #bbb3af;
+    display: flex;
+    justify-content: center;
+    text-size-adjust: 24px;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+body {
+    background-color: #F8E0D4;
+}
+
+.head a {
+    text-decoration: none;
+    color: black;
+}
+
+.head a:hover {
+    background-color: #696566;
+    color: rgb(255, 255, 255);
+}
+
+.bake {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 2svw;
+    padding: 20px;
+}
+
+.bake h1 {
+    font-family: 'Dancing Script', cursive; 
+    text-transform: uppercase;
+    color: #8B5B29; 
+    padding: 10px;
+    border-radius: 5px; 
+}
+
+.bake ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 20px 0;
+}
+
+.bake ul li {
+    margin: 10px 0; 
+}
+
+.bake p.location {  
+    border-top: 2px solid black;
+    padding-top: 20px; 
+    color:2px black;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John's Bakery</title>
+    <link rel="stylesheet" href="order.css">
+</head>
+
+<body>
+    <div class="head">
+        <header>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="order.html">Order now</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </header>
+    </div>
+
+    <h1>Customize your cake below</h1>
+
+    <div class="form">
+        <form action="verify.html" method="post">
+            <label for="flavor">Choose your desired flavor:</label>
+            <select id="flavor" name="flavor">
+                <option value="Carrot Cake">Carrot Cake</option>
+                <option value="Almond Cake">Almond Cake</option>
+                <option value="Cheesecake">Cheesecake</option>
+            </select>
+            <br><br>
+
+            <label>Which cake size you like:</label><br>
+            <input type="radio" name="size" id="size6" value="6 inch">
+            <label for="size6">6 inch cake</label><br>
+            <input type="radio" name="size" id="size8" value="8 inch">
+            <label for="size8">8 inch cake</label><br>
+            <input type="radio" name="size" id="size12" value="12 inch">
+            <label for="size12">12 inch cake</label><br><br>
+
+            <label>Choose a cake design:</label><br>
+            <input type="radio" name="design" id="design1" value="Simple">
+            <label for="design1">Simple and Minimalistic</label><br>
+            <img src="simplecake.jpg" alt="Simple Cake Design"><br>
+
+            <input type="radio" name="design" id="design2" value="Icing">
+            <label for="design2">Icing</label><br>
+            <img src="icing.jpg" alt="Icing Cake Design"><br>
+
+            <input type="radio" name="design" id="design3" value="Floral">
+            <label for="design3">Floral</label><br>
+            <img src="floral.jpg" alt="Floral Cake Design"><br>
+
+            <input type="radio" name="design" id="design4" value="Sheet">
+            <label for="design4">Sheet Cake</label><br>
+            <img src="cake.jpg" alt="Sheet Cake Design"><br>
+
+            <hr>
+
+            <div class="contact">
+                <h4 class="info">Contact Information</h4>
+                <label for="Name">Name: </label>
+                <input type="text" id="Name" name="name" placeholder="Enter your name" required><br><br>
+
+                <label for="e-mail">E-mail Address: </label>
+                <input type="e-mail" id="e-mail" name="e-mail" placeholder="Enter your E-mail Address" required><br><br>
+                
+                <label for="location">Location: </label>
+                <input type="text" id="location" name="location" placeholder="Enter your location" required><br><br>
+            </div>
+
+            <button type="submit">Submit Your Order</button>&nbsp;&nbsp;&nbsp;
+            <input type="reset" value="Cancel Order" onclick="window.location='contact.html'">
+        </form>
+    </div>
+</body>
+
+</html>
